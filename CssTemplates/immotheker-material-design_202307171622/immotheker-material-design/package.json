@@ -1,0 +1,8 @@
+{
+  "name": "Immotheker-material-design",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-theme-material": "6.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Immotheker-Fluent",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-theme-fluent": "6.4.0"
+  }
+}
