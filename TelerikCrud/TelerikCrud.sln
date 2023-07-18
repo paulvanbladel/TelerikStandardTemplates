@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikCrud.Server", "Server\TelerikCrud.Server.csproj", "{408E0E28-B228-4D0A-9897-679B1EED3B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelerikCrud.Server", "Server\TelerikCrud.Server.csproj", "{408E0E28-B228-4D0A-9897-679B1EED3B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikCrud.Client", "Client\TelerikCrud.Client.csproj", "{B7C10321-86F6-414A-B0AE-57674DBA6677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelerikCrud.Client", "Client\TelerikCrud.Client.csproj", "{B7C10321-86F6-414A-B0AE-57674DBA6677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikCrud.Shared", "Shared\TelerikCrud.Shared.csproj", "{7402C42B-AAC2-424B-93D9-5C7D1C0D2194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelerikCrud.Shared", "Shared\TelerikCrud.Shared.csproj", "{7402C42B-AAC2-424B-93D9-5C7D1C0D2194}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

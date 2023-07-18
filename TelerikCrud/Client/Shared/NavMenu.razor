@@ -16,6 +16,7 @@
 </style>
 
 <TelerikMenu Data="@MenuItems" Class="on-top">
+    
     <ItemTemplate Context="item">
         @{
             <NavLink href="@item.Url"
@@ -53,43 +54,33 @@
                 Text = "Home",
                 Url = "",
             },
+         
             new MenuItem()
             {
-                Text = "Grid",
-                Url = "grid"
-            },
-            new MenuItem()
-            {
-                Text = "Chart",
-                Url = "chart"
-            },
-            new MenuItem()
-            {
-                Text = "Form",
-                Url = "form"
-            },
-            new MenuItem()
-            {
-                Text = "Telerik UI for Blazor",
-                Url = "https://www.telerik.com/blazor-ui",
+                Text = "Scenario Selection",
+                
                 Items = new List<MenuItem>()
                 {
                     new MenuItem()
                     {
-                        Text = "Documentation",
-                        Url = "https://docs.telerik.com/blazor-ui/introduction"
+                        Text = "Aankoop Woning",
+                        Url = "aankoopwoning"
+                    }, 
+                    new MenuItem()
+                    {
+                        Text = "Aankoop Grond",
+                        Url = "Scenario2"
                     },
                     new MenuItem()
                     {
-                        Text = "Live Demos",
-                        Url = "https://demos.telerik.com/blazor-ui"
-                    }
-                    ,
+                        Text = "Bouw woning",
+                        Url = "Scenario2"
+                    },
                     new MenuItem()
                     {
-                        Text = "Theme Builder",
-                        Url = "https://themebuilder.telerik.com"
-                    }
+                        Text = "You name it :)",
+                        Url = "Scenario2"
+                    },
                 }
             }
         };
